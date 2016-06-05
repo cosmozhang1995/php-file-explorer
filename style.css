@@ -1,0 +1,66 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-size: 100% 100%;
+}
+.icon-file {
+    background-image: url(./images/files/icon-file.png);
+}
+.icon-dir {
+    background-image: url(./images/files/icon-dir.png);
+}
+
+.file-list {
+    font-size: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.file-list .item {
+    display: block;
+    padding: 5px;
+    border-bottom: #ccc 1px dashed;
+    height: 22px;
+    line-height: 22px;
+}
+.file-list .item,
+.file-list .item:active,
+.file-list .item:link,
+.file-list .item:hover,
+.file-list .item:visited {
+}
+.file-list .item .icon {
+    float: left;
+}
+.file-list .item .text {
+    margin: 0px;
+    margin-left: 27px;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.path-bar {
+    margin: 15px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: #eeeeee;
+}
+.path-bar .spliter {
+    margin: 0px 3px;
+}
+
+.message-box {
+    background-color: #eeeeee;
+    margin: 15px;
+    border-left: 3px #dddddd solid;
+    padding: 30px 15px;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.5;
+    color: #999;
+}
